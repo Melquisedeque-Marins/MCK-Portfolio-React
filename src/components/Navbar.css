@@ -1,0 +1,23 @@
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: #000;
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin-left: 40px;
+}
+
+a {
+    text-transform: uppercase;
+    color: #FFF;
+}
