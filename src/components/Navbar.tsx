@@ -6,7 +6,7 @@ const Navbar = () => {
             <NavLink to="/" activeClassName="active" exact>
                       <h1>MCK Enterprises</h1>
                     </NavLink>
-            <ul>
+            <ul className="main-menu">
                 <li>
                     <NavLink to="/" activeClassName="active" exact>
                       Home

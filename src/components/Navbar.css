@@ -3,9 +3,13 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 70px;
+    height: 100px;
     background-color: #000;
     
+}
+
+#navbar h1 {
+    font-size: 3rem;
 }
 
 ul {
@@ -15,9 +19,14 @@ ul {
 
 li {
     margin-left: 40px;
+    font-size: 1.6rem;
 }
 
 a {
     text-transform: uppercase;
     color: #FFF;
+}
+
+.main-menu a.active {
+   border-bottom: 3px solid green;
 }

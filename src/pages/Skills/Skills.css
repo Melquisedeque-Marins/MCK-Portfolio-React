@@ -1,0 +1,15 @@
+.container-skills {
+    padding-top: 50px;
+    min-height: calc(100vh - 150px);
+    display: flex;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    margin: 0 auto;
+}
+
+img {
+    width: 128px;
+}
