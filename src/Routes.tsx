@@ -9,7 +9,7 @@ import Skills from "./pages/Skills/Skills";
 
 const Routes = () => {
     return (
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <BrowserRouter >
             <Navbar/>
             <Switch>
                 <Route exact path="/">

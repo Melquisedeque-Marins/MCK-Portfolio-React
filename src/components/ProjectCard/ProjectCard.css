@@ -1,0 +1,29 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.content-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+
+}
+
+.img-card img {
+    width: 100%;
+    margin: auto;
+}
+
+.text-card h1 {
+    font-size: 2.5rem;
+    letter-spacing: -0.015rem;
+}
+
+.text-card p {
+    font-size: 1.6rem;
+    letter-spacing: -0.015rem;
+    color: #4F4F4F;
+}

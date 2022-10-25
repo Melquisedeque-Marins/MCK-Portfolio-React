@@ -5,6 +5,7 @@ import Html from '../../assets/img/html5_logo.png';
 import Css from '../../assets/img/css3_logo.png';
 import Js from '../../assets/img/javascript_logo.png';
 import React from '../../assets/img/react_logo.png';
+import Ts from '../../assets/img/Typescript_logo.png';
 
 const Skills = () => {
     return (
@@ -16,6 +17,7 @@ const Skills = () => {
                     <img src={Html} alt="" />
                     <img src={Css} alt="" />
                     <img src={Js} alt="" />
+                    <img src={Ts} alt="" />
                     <img src={React} alt="" />
                 </div>
             </div>
