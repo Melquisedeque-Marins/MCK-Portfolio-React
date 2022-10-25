@@ -1,13 +1,15 @@
 .container-about {
-   padding-top: 50px;
    min-height: calc(100vh - 150px);
    display: flex;
    margin: 0 auto;
 }
 
-.content {
+.content-about {
    display: flex;
    flex-direction: column;
-   margin: 0 auto;
-   width: 80%;
+   align-items: flex-start;
+}
+
+.content-about img {
+   width: 400px;
 }

@@ -1,5 +1,5 @@
 .container-projects {
-    padding-top: 50px;
+    padding-top: 25px;
     min-height: calc(100vh - 150px);
     display: flex;
     justify-content: center;
@@ -14,6 +14,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 30px;
+    margin-bottom: 50px;
 
 }
 
@@ -22,6 +23,10 @@
     margin: auto;
 }
 
-.card{
+.card-title {
+    margin-bottom: 30px;
+}
 
+.card-title h1 {
+    font-size: 4rem;
 }

@@ -7,9 +7,14 @@
 
 .content-card {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 50px;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 60px;
+}
 
+.img-card  {
+    display: flex;
+    justify-content: center;
+    box-shadow: 15px 15px 20px rgba(100, 100, 100, 1);
 }
 
 .img-card img {
@@ -18,12 +23,61 @@
 }
 
 .text-card h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     letter-spacing: -0.015rem;
+    margin-bottom: 1rem;
 }
 
 .text-card p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     letter-spacing: -0.015rem;
     color: #4F4F4F;
+    margin-bottom: 2rem;
 }
+
+.text-card a {
+    margin-top: 20px;
+    font-size: 1.6rem;
+    letter-spacing: -0.015rem;
+    color: #FFF;
+    text-transform: none;
+    background-color: blue;
+    padding: 6px 10px;
+}
+
+
+
+
+
+
+.carrossel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 64px auto;
+  }
+  
+  .technologies {
+    height: 148px;
+    width: 640px;
+    overflow: hidden;
+    box-shadow: 15px 15px 20px rgba(100, 100, 100, 1);
+    background-color: #FFF;
+  }
+  
+  .technologies .img {
+    margin: 10px auto;
+    width: 1280px;
+    animation: slide 20s infinite ease-out ;
+  }
+  
+  .technologies .img img {
+    width: 128px;
+  }
+  
+  @keyframes slide {
+    0%{margin-left: 0px;}
+    49%{margin-left: -536px;}
+    50%{margin-left: -536px;}
+    100%{margin-left: 0px;}
+  }
