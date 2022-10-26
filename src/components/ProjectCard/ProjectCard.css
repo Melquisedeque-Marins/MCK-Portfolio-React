@@ -12,19 +12,19 @@
 }
 
 .carro {
-  width: 100%;
   overflow: hidden;
+  box-shadow: 15px 15px 20px rgba(100, 100, 100, 1);
 }
 
 .img-card  {
+    width: 400%;
     display: flex;
     justify-content: left;
-    box-shadow: 15px 15px 20px rgba(100, 100, 100, 1);
-   /* animation: slide 10s infinite ease-out ; */
+    animation: slide 20s infinite ease-out ; 
 }
 
 .img-card img {
-    width: 100%;
+    width: 25%;
 }
 
 .text-card h1 {
@@ -52,8 +52,10 @@
   
   @keyframes slide {
     0%{margin-left: 0%;}
-    49%{margin-left: -100%;}
-    50%{margin-left: -200%;}
-    99%{margin-left: -200%;}
-    100%{margin-left: 0%;}
+    25%{margin-left: 0%;}
+    35%{margin-left: -100%;}
+    60%{margin-left: -100%;}
+    70%{margin-left: -200%;}
+    95%{margin-left: -200%;}
+    100%{margin-left: -300%;}
   }
