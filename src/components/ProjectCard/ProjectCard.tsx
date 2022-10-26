@@ -1,23 +1,30 @@
 import './ProjectCard.css';
 
-type props = {
-    src: string;
+type Props = {
+    src: string[];
     title: string;
     description: string;
     link: string;
 }
 
-const ProjectCard = ({src, title, description, link}: props) => {
+const ProjectCard = (props : Props) => {
     return (
         <div className="card-container">
              <div className="content-card">
-                    <div className="img-card">
-                        <img src={src} alt="project image" />
+                    <div className="carro">
+                        <div className="img-card">
+                            {
+                                props.src.map((s: string) => (
+                                    <img src={s} alt="project image" />
+                                )
+                                )
+                            }
+                        </div>
                     </div>
                     <div className="text-card">
-                        <h1>{title}</h1>
-                        <p>{description}</p>
-                        <a href={link} target="_blank">Confira o código no Github</a>
+                        <h1>{props.title}</h1>
+                        <p>{props.description}</p>
+                        <a href={props.link} target="_blank">Confira o código no Github</a>
                     </div>
 
                 </div>

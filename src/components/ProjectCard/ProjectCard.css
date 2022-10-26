@@ -11,15 +11,20 @@
     grid-gap: 60px;
 }
 
+.carro {
+  width: 100%;
+  overflow: hidden;
+}
+
 .img-card  {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     box-shadow: 15px 15px 20px rgba(100, 100, 100, 1);
+   /* animation: slide 10s infinite ease-out ; */
 }
 
 .img-card img {
     width: 100%;
-    margin: auto;
 }
 
 .text-card h1 {
@@ -44,40 +49,11 @@
     background-color: blue;
     padding: 6px 10px;
 }
-
-
-
-
-
-
-.carrossel {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 64px auto;
-  }
-  
-  .technologies {
-    height: 148px;
-    width: 640px;
-    overflow: hidden;
-    box-shadow: 15px 15px 20px rgba(100, 100, 100, 1);
-    background-color: #FFF;
-  }
-  
-  .technologies .img {
-    margin: 10px auto;
-    width: 1280px;
-    animation: slide 20s infinite ease-out ;
-  }
-  
-  .technologies .img img {
-    width: 128px;
-  }
   
   @keyframes slide {
-    0%{margin-left: 0px;}
-    49%{margin-left: -536px;}
-    50%{margin-left: -536px;}
-    100%{margin-left: 0px;}
+    0%{margin-left: 0%;}
+    49%{margin-left: -100%;}
+    50%{margin-left: -200%;}
+    99%{margin-left: -200%;}
+    100%{margin-left: 0%;}
   }
