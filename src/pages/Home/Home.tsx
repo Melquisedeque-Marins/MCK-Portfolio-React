@@ -15,6 +15,7 @@ import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import SimpleSlider from '../../components/Carroussel/Carroussel';
 import CenterMode from '../../components/Carroussel/Carroussel';
 import Fade from '../../components/Carroussel/Carroussel';
+import { Link } from 'react-router-dom';
 const Home = () => {
     return (
         <div className="container-home">
@@ -31,21 +32,25 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="profile-info">
+                  
                     <div className="field">
-                    <a href="https://github.com/Melquisedeque-Marins" target="_Blank" ><FaPhoneAlt /></a>
+                    <a className="btnn btnn-neon" href="https://github.com/Melquisedeque-Marins" target="_Blank" ><FaEnvelope/></a>
                     </div>
                     <div className="field">
-                    <a href="https://github.com/Melquisedeque-Marins" target="_Blank" ><FaEnvelope/></a>
+                    <a className="btnn btnn-neon" href="https://github.com/Melquisedeque-Marins" target="_Blank" ><FaGithub/></a>
                     </div>
                     <div className="field">
-                    <a href="https://github.com/Melquisedeque-Marins" target="_Blank" ><FaGithub/></a>
-                    </div>
-                    <div className="field">
-                    <a href="https://www.linkedin.com/in/melquisedeque-marins-junior-324291230/" target="_Blank" ><FaLinkedin/></a>
+                    <a className="btnn btnn-neon" href="https://www.linkedin.com/in/melquisedeque-marins-junior-324291230/" target="_Blank" ><FaLinkedin/></a>
                     </div>
                 </div>
-                   <div className="slider-home" >
-                        <Fade/>
+                   <div className="project-preview" >
+                        <div className="project-preview-text">
+                            <h1>Projetos</h1>
+                            <p>Projetos de estudo desenvolvidos em Bootcamps ou para experiência pesssoal</p>
+                        </div>
+                        <div className="slider-home">
+                            <Link to="/projects"><Fade/></Link>
+                        </div> 
                     </div>
             </div>
         </div>

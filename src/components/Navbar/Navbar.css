@@ -29,5 +29,6 @@ a {
 }
 
 .main-menu a.active {
-   border-bottom: 3px solid green;
+   border-bottom: 3px solid #0F0;
+   
 }
