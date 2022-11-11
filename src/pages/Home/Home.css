@@ -3,6 +3,7 @@
     max-width: 1600px;
     margin: auto;
     background-color: black;
+    padding-bottom: 20px;
 
 }
 
@@ -35,10 +36,19 @@
 .profile-info {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    font-size: 2rem;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.field a {
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-right: 60px;
     color: #FFF;
-    margin-top: 40px;
+}
+
+.field a:hover {
+    color: #0F0;
 }
 
 .text {
@@ -62,4 +72,7 @@
     cursor: pointer;
 }
 
-
+.slider-home {
+    max-width: 75%;
+    margin: auto;
+}

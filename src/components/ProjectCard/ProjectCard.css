@@ -2,18 +2,18 @@
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .content-card {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 60px;
 }
 
 .carro {
   overflow: hidden;
-  box-shadow: 15px 15px 20px rgba(100, 100, 100, 1);
+  box-shadow: 0px 6px 30px rgba(100, 100, 100, 1);
 }
 
 .img-card  {
@@ -25,6 +25,10 @@
 
 .img-card img {
     width: 25%;
+}
+
+.text-card {
+   margin-left: 20px;
 }
 
 .text-card h1 {
