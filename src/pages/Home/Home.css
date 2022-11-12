@@ -43,7 +43,13 @@
     margin-bottom: 100px;
 }
 
+.field {
+  display: flex;
+  align-items: center;
+}
+
 .field a {
+  padding-top: 12px;
     font-size: 30px;
     text-transform: capitalize;
 }
@@ -54,12 +60,12 @@
     color: #FFF;
 }
 .text h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     color: #0F0;
 }
 
 .text h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .text p {

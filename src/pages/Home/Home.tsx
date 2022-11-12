@@ -16,6 +16,7 @@ import SimpleSlider from '../../components/Carroussel/Carroussel';
 import CenterMode from '../../components/Carroussel/Carroussel';
 import Fade from '../../components/Carroussel/Carroussel';
 import { Link } from 'react-router-dom';
+import VideoPlayer from '../../components/VideoPlayer/VideoPlayer';
 const Home = () => {
     return (
         <div className="container-home">
@@ -48,12 +49,13 @@ const Home = () => {
                             <h1>Projetos</h1>
                             <p>Projetos de estudo desenvolvidos em Bootcamps ou para experiência pesssoal</p>
                         </div>
-                        <div className="slider-home btnn-neon">
+                        <div className="slider-home">
                             <Link to="/projects"><Fade/></Link>
                         </div> 
                     </div>
                     <div className="skills-preview">
                         <h1>Skills</h1>
+                        <VideoPlayer/>
                     </div>
             </div>
         </div>
