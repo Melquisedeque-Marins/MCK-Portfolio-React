@@ -1,9 +1,8 @@
 {
   "name": "mck-portfolio",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "homepage": "MCK-Portfolio-React/",
+  "version": "0.1.0",
+  "homepage": "https://melquisedeque-marins.github.io/MCK-Portfolio-React/build/",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
