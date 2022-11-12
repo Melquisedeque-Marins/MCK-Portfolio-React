@@ -19,16 +19,35 @@ ul {
 }
 
 li {
-    margin-left: 40px;
-    font-size: 1.6rem;
+    margin-left: 30px;
+    margin-top: 40px;
 }
 
 a {
     text-transform: uppercase;
+    font-size: 1.6rem;
     color: #FFF;
 }
 
-.main-menu a.active {
-   border-bottom: 3px solid #0F0;
-   
+:root {
+    --color-thema: #0F0;
+    --cor-hover: #ffffff;
+  }
+  .navLink {
+    padding:0.2em 1em;
+    border-radius:50px;
+    display:inline-block;
+  }
+  .main-menu a.active  {
+    border-bottom: 3px solid var(--color-thema);
+    text-decoration:none;
+    color: var(--color-thema);
+    background-color: transparent;
+    cursor: pointer;
+    transition:0.4s;
+  }
+ 
+.navLink:hover {
+    transition: 0.5s;
+    color: #0F0;
 }

@@ -8,22 +8,22 @@ const Navbar = () => {
                     </NavLink>
             <ul className="main-menu">
                 <li>
-                    <NavLink to="/" activeClassName="active" exact>
+                    <NavLink to="/" className="navLink" activeClassName="active" exact>
                       Home
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/about" activeClassName="active" exact>
+                    <NavLink to="/about" className="navLink" activeClassName="active" exact>
                       about
                     </NavLink>
                 </li> 
                 <li>
-                    <NavLink to="/skills" activeClassName="active" exact>
+                    <NavLink to="/skills" className="navLink" activeClassName="active" exact>
                       skills
                     </NavLink>
                 </li> 
                 <li>
-                    <NavLink to="/projects" activeClassName="active" exact>
+                    <NavLink to="/projects" className="navLink" activeClassName="active" exact>
                       projects
                     </NavLink>
                 </li> 

@@ -46,7 +46,6 @@
 .field a {
     font-size: 30px;
     text-transform: capitalize;
-    margin-right: 100px;
 }
 
 .text {
@@ -73,15 +72,27 @@
 
 .project-preview {
     max-width: 75%;
-    margin: auto;
+    margin: 50px auto;
 }
 
 .project-preview-text h1 {
     font-size: 46px;
     color: #FFF;
     margin-bottom: 20px;
+}
+
+.skills-preview {
+    max-width: 75%;
+    margin: 50px auto;
 
 }
+
+.skills-preview h1 {
+    font-size: 46px;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
 
 :root {
     --color-thema: #0F0;

@@ -48,9 +48,12 @@ const Home = () => {
                             <h1>Projetos</h1>
                             <p>Projetos de estudo desenvolvidos em Bootcamps ou para experiência pesssoal</p>
                         </div>
-                        <div className="slider-home">
+                        <div className="slider-home btnn-neon">
                             <Link to="/projects"><Fade/></Link>
                         </div> 
+                    </div>
+                    <div className="skills-preview">
+                        <h1>Skills</h1>
                     </div>
             </div>
         </div>
