@@ -21,9 +21,9 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
-# git push -f git@github.com:Melquisedeque-Marins/Melquisedeque-Marins.github.io.git main
+git push -f git@github.com:Melquisedeque-Marins/Melquisedeque-Marins.github.io.git main
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:Melquisedeque-Marins/MCK-Portfolio-React.git main:gh-pages
+# git push -f git@github.com:Melquisedeque-Marins/MCK-Portfolio-React.git main:gh-pages
 
 cd -
