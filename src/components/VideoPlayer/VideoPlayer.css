@@ -1,4 +1,5 @@
-.container-video {
+.container-video video {
     width: 100%;
     margin: auto;
+    object-fit: cover;
 }

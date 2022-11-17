@@ -1,15 +1,24 @@
 #navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 100px;
+    height: 80px;
     width: 100%;
     background-color: #000;
+    z-index: 1;
 }
 
 #navbar h1 {
     font-size: 3rem;
+    color: #0F0;
+}
+
+.logo-complete {
+    display: none;
 }
 
 ul {
@@ -24,7 +33,7 @@ li {
 
 a {
     text-transform: uppercase;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: #FFF;
 }
 
@@ -56,12 +65,7 @@ a {
     display: none;
 }
 
-.mobile-menu-bar {
-    background-color: #0F0;
-    height: 3px;
-    width: 30px;
-    margin-bottom: 5px;
-}
+
 
 @media(max-width: 850px) {
 
@@ -72,9 +76,16 @@ a {
     .mobile-menu {
         display: block;
     }
+
+    .mobile-menu-bar {
+        background-color: #0F0;
+        height: 3px;
+        width: 30px;
+        margin-bottom: 6px;
+    }
     
     .logo-link, .mobile-menu {
-        padding: 0 50px;
+        padding: 0 30px;
 
     }
 
@@ -90,7 +101,7 @@ a {
 
     .main-menu.active {
         position: absolute;
-        top: 100px;
+        top: 80px;
         right: 0;
         width: 100vw;
         height: 50vh;
@@ -109,7 +120,7 @@ a {
 }
 
 .mobile-menu.active .line-1 {
-    transform: rotate(-45deg) translate(-6px, 6px); 
+    transform: rotate(-45deg) translate(-7px, 6px); 
 }
 .mobile-menu.active .line-2 {
 opacity: 0;
