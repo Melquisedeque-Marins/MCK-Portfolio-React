@@ -9,7 +9,7 @@ import Api from '../../assets/img/api_logo.png'
 
 const Projects = () => {
     return (
-        <div className="container-projects">
+        <div className="container-projects base-container">
             <div className="content-projects">
                 <div className="content-cards">
                     <div className="card-title">

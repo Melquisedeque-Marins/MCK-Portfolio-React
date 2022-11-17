@@ -9,7 +9,7 @@ import Ts from '../../assets/img/Typescript_logo.png';
 
 const Skills = () => {
     return (
-        <div className="container-skills">
+        <div className="container-skills base-container">
             <div className="content">
                 <div className="content-skills">
                     <img src={Java} alt="" />

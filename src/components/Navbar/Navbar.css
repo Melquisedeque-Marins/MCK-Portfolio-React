@@ -6,7 +6,6 @@
     height: 100px;
     width: 100%;
     background-color: #000;
-    
 }
 
 #navbar h1 {
@@ -50,4 +49,72 @@ a {
 .navLink:hover {
     transition: 0.5s;
     color: #0F0;
+}
+
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu-bar {
+    background-color: #0F0;
+    height: 3px;
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+@media(max-width: 850px) {
+
+    #navbar {
+        justify-content: space-between;
+    }
+    
+    .mobile-menu {
+        display: block;
+    }
+    
+    .logo-link, .mobile-menu {
+        padding: 0 50px;
+
+    }
+
+    .main-menu {
+        position: absolute;
+        justify-content: space-between;
+        transition: 0.3s;
+    }
+
+    .main-menu li {
+        display: none;
+    }
+
+    .main-menu.active {
+        position: absolute;
+        top: 100px;
+        right: 0;
+        width: 100vw;
+        height: 50vh;
+        background-color: #000;
+        flex-direction: column;
+        align-items:center;
+        justify-content: flex-start;
+        transition: 0.2s;
+        padding-bottom: 30px;
+    }
+
+    .main-menu.active li {
+        display: block;
+    }
+
+}
+
+.mobile-menu.active .line-1 {
+    transform: rotate(-45deg) translate(-6px, 6px); 
+}
+.mobile-menu.active .line-2 {
+opacity: 0;
+
+}
+.mobile-menu.active .line-3 {
+transform: rotate(45deg) translate(-6px, -6px);
 }

@@ -19,7 +19,10 @@ import { Link } from 'react-router-dom';
 import VideoPlayer from '../../components/VideoPlayer/VideoPlayer';
 const Home = () => {
     return (
-        <div className="container-home">
+        <div className="container-home base-container">
+            <div className="video">
+                <VideoPlayer/>
+            </div>
             <div className="home-content">
                 <div className="banner">
                     <div className="profile">
@@ -52,10 +55,6 @@ const Home = () => {
                         <div className="slider-home">
                             <Link to="/projects"><Fade/></Link>
                         </div> 
-                    </div>
-                    <div className="skills-preview">
-                        <h1>Skills</h1>
-                        <VideoPlayer/>
                     </div>
             </div>
         </div>

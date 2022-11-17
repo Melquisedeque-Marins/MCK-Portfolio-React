@@ -18,3 +18,8 @@ a {
 ul {
     list-style: none;
 }
+
+.base-container {
+    width: 100%;
+    max-width: 1400px;
+}
